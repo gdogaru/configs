@@ -1,0 +1,50 @@
+[user]
+	name = Gabriel Dogaru
+	email = gdogaru@gmail.com
+[core]
+	editor = vim
+	excludesfile = /home/gdogaru/.gitignore_global
+
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+       praise = blame
+	br = branch
+	unstage = reset HEAD --
+	visual = gitk
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+        lgn = log --graph --pretty=format:'%h %d %s (%cr) <%an>' --abbrev-commit --date=relative
+        co = checkout
+        st = status -a
+        ci = commit
+        br = branch
+        undo=reset --hard
+        sync = pull --rebase
+        graph = log --graph --decorate --all
+        ci = commit -a
+        unadd = reset --
+        unedit = checkout --
+        unstage = reset HEAD
+        unrm = checkout --
+        unstash = stash pop
+	
+[color]
+    ui = true
+    diff = auto
+    status = auto
+    branch = auto
+    
+[apply]
+    whitespace = strip
+
+[diff]
+    color = auto
+    rename = copy
+
+[pager]
+    color = true
+
+[status]
+    color = auto
+

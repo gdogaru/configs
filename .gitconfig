@@ -4,6 +4,7 @@
 [core]
 	editor = vim
 	excludesfile = /home/gdogaru/.gitignore_global
+	autocrlf = input
 
 [alias]
 	ci = commit
@@ -48,3 +49,6 @@
 [status]
     color = auto
 
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 700x550+441+255

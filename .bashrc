@@ -122,12 +122,12 @@ export MVN_HOME=/work/apps/apache-maven-3.0.4
 export M2_HOME=$MVN_HOME
 export CATALINA_HOME=/work/apps/apache-tomcat-7.0.29
 export TOMCAT_HOME=$CATALINA_HOME
-export GROOVY_HOME=/work/apps/groovy-2.0.4
-export GRAILS_HOME=/work/apps/grails-2.1.1
+export GROOVY_HOME=/work/apps/groovy-2.0.5
+export GRAILS_HOME=/work/apps/grails-2.1.2
 export PAGER="less -R"
 export ANDROID_HOME=/work/apps/android-sdk-linux
 
-export PATH=$JAVA_HOME/bin:$ANT_HOME/bin:$MVN_HOME/bin:$GRAILS_HOME/bin/:$GROOVY_HOME/bin/:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
+export PATH=$JAVA_HOME/bin:$ANT_HOME/bin:$MVN_HOME/bin:$GRAILS_HOME/bin:$GROOVY_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
 
 #export MANPATH=$MANPATH:/apollo/env/Git/share/man
 
